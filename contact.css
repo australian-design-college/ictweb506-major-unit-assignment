@@ -1,0 +1,67 @@
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+.banner {
+  background-image: url(http://lorempixel.com/800/200/abstract/5/);
+  color: white;
+  font-size: 80px;
+  height: 200px;
+  line-height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  width: 800px;
+}
+
+.content {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0 auto;
+  width: 820px;
+}
+
+.content > div {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.content > div > p {
+  text-align: justify;
+}
+
+#nav {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 20px 0 40px;
+}
+
+#nav > img {
+  margin: 0 40px;
+}
+
+#nav > ul {
+  margin: 0;
+  padding: 0;
+}
+
+#nav > ul > li {
+  float: left;
+  list-style: none;
+  margin-right: 25px;
+}
+
+#nav > ul > li:last-child {
+  margin-right: 0;
+}
+
+#nav > ul > li > a {
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+#nav > ul > li > a:hover {
+  text-decoration: underline;
+}
